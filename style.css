@@ -40,12 +40,13 @@ a {
 
 li {
     list-style-type: none;
+    font-weight: bold;
     background-color: rgb(3, 43, 3);
     transition: 0.2s;;
     display: flex;
     margin: 5px;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 li:hover {
@@ -53,6 +54,10 @@ li:hover {
     transition: 0.2s;
     transform: scale(0.95);
     box-shadow: 0 0 5px rgb(180, 247, 180);
+}
+
+a:hover {
+    color: rgb(3, 43, 3);
 }
 
 ul {

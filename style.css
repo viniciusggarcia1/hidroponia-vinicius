@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: rgb(97, 185, 97);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@ header {
 }
 
 main {
-    background-color: lightgreen;
+    background-color: rgb(180, 247, 180);
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -49,14 +49,18 @@ li {
 }
 
 li:hover {
-    background-color: green;
+    background-color: rgb(97, 185, 97);
     transition: 0.2s;
     transform: scale(0.95);
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px rgb(180, 247, 180);
 }
 
 ul {
     display: flex;
     flex-direction: column;
+}
+
+header img {
+    width: 200px;
 }
 

@@ -49,6 +49,14 @@ li {
     border-radius: 15px;
 }
 
+li:hover {
+    background-color: green;
+    transition: 0.2s;
+    transform: scale(0.95);
+    box-shadow: 0 0 5px white;
+}
+
+
 ul {
     display: flex;
     flex-direction: column;

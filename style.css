@@ -34,8 +34,14 @@ main {
 }
 
 a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: white;
+}
+
+a ion-icon {
+    margin-right: 10px;
 }
 
 li {
